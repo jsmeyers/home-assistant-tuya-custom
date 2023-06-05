@@ -619,13 +619,12 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
             name="Switch",
         ),
     ),
-    # Water Valve
-    # Not documented
+    # Smart Water Timer
     "sfkzq": (
         SwitchEntityDescription(
             key=DPCode.SWITCH,
             name="Switch",
-            icon="mdi:faucet",
+            icon="mdi:sprinkler-variant",
         ),
     ),
     # Fan
