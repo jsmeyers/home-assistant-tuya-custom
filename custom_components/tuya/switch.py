@@ -624,7 +624,6 @@ SWITCHES: dict[str, tuple[SwitchEntityDescription, ...]] = {
         SwitchEntityDescription(
             key=DPCode.SWITCH,
             name="Switch",
-            icon="mdi:sprinkler-variant",
         ),
     ),
     # Fan
