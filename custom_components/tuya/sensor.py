@@ -547,6 +547,9 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
     ),
     # Fingerbot
     "szjqr": BATTERY_SENSORS,
+    # Water Valve
+    # Not documented
+    "sfkzq": BATTERY_SENSORS,
     # Solar Light
     # https://developer.tuya.com/en/docs/iot/tynd?id=Kaof8j02e1t98
     "tyndj": BATTERY_SENSORS,
